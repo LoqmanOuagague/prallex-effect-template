@@ -1,12 +1,15 @@
+/* Reseting margin, padding, and box-sizing default values */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/* Styling the html element */
 .city .view {
   height: 75vh;
   width: 100%;
   background-size: cover;
+  /* The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed. */
   background-attachment: fixed;
 }
 .city .about {
@@ -14,8 +17,6 @@
   width: 100%;
   text-align: center;
   padding: 50px 10px;
-  background-color: #c0a5b4;
-  color: #342820;
 }
 .city .about h1 {
   margin-bottom: 20px;
