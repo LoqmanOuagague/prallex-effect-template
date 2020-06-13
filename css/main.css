@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.city .view {
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.city .about {
+  height: 25vh;
+  width: 100%;
+  text-align: center;
+  padding: 50px 10px;
+  background-color: #c0a5b4;
+  color: #342820;
+}
+.city .about h1 {
+  margin-bottom: 20px;
+}
